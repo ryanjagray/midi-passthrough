@@ -38,12 +38,12 @@
 		A4000001 = {
 			isa = PBXGroup;
 			children = (
-				A4000002 /* MidiPassthrough */,
+				A4000002 /* Sources/MidiPassthrough */,
 				A4000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A4000002 /* MidiPassthrough */ = {
+		A4000002 /* Sources/MidiPassthrough */ = {
 			isa = PBXGroup;
 			children = (
 				A2000001 /* MidiPassthroughApp.swift */,
@@ -176,8 +176,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = MidiPassthrough;
 				CODE_SIGN_ENTITLEMENTS = Sources/MidiPassthrough/MidiPassthrough.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PK6V36DC3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Midi Passthrough";
@@ -198,6 +200,7 @@
 				CODE_SIGN_ENTITLEMENTS = Sources/MidiPassthrough/MidiPassthrough.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PK6V36DC3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Midi Passthrough";
